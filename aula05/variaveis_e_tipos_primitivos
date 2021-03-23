@@ -1,0 +1,33 @@
+Comentários
+    // uma única linha
+
+    /* 
+        um trecho de código
+    */
+
+Nomes de variáveis:
+    * podem começar com letra, $ ou _
+    * não podem começar com números
+    * É possível usar letras e números
+    * É possível usar acentos e símbolos
+    * Não podem conter espaços
+    * Não podem ser palavras reservadas
+
+Tipos de dados:
+    *number
+        Infinity
+        NaN
+    * string
+    * boolean
+    * null
+    * undefined
+    * object
+        Array
+        null
+    * function
+
+Para saber o tipo de dados da variável:
+typeof variável;
+
+o ; não é obrigatório
+
