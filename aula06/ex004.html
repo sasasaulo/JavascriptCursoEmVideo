@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula06 - 003</title>
+    <style>
+        body {
+            background-color: rgb(79, 79, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: chocolate;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Operações com Strings e números</h1><br><br>
+    <script>
+        
+        var nome = window.prompt("Digite o seu nome:");
+        var numero = Number(window.prompt("Digite um número:"));
+
+        document.writeln(`Olá, ${nome}. Seu nome tem ${nome.length} letras. <br>`);
+        document.writeln(`Em letras maiúsculas: ${nome.toUpperCase()}.<br>`);
+        document.writeln(`Em letras minúsculas: ${nome.toLowerCase()}.<br><br>`);
+
+        document.writeln(`Com 2 casas decimais (toFixed): ${numero.toFixed(2)}<br>`);
+        document.writeln(`Trocando ponto por vírgula (replace): ${numero.toFixed(2).replace('.',',')}<br>`);
+        document.writeln(`Moeda real (toLocalString): ${numero.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}<br>`);
+        document.writeln(`Moeda dólar (toLocalString): ${numero.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}<br>`);
+        document.writeln(`Moeda EURO (toLocalString): ${numero.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})}<br>`);
+
+
+
+    </script>
+</body>
+</html>
